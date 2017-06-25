@@ -1,0 +1,5 @@
+declare R LC RC in
+R = tree(key:root value:22 left:LC right:RC)
+LC = tree(key:left value:12 left:nil right:nil)
+RC = tree(key:right value:32 left:nil right:nil)
+{Browse R LC RC}

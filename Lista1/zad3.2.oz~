@@ -1,0 +1,11 @@
+declare
+fun {Rozmowca Fun Interlokutor}
+   {Browse Interlokutor}
+   {Fun Interlokutor}
+end
+
+declare R1 R2 in
+R1 = {Rozmowca fun {$ X} X + 1 end R2}
+R2 = {Rozmowca fun {$ X} X - 1 end R1}
+R1 = 0
+end
